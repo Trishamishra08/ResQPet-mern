@@ -1,0 +1,7 @@
+.logo {
+  border-radius: 50%;
+  width: 70px; /* Adjust as needed */
+  height: 70px; /* Ensure square shape */
+  object-fit: cover; /* Crop image if not square */
+  border: 2px solid #f0e3c2; /* Optional border for styling */
+}

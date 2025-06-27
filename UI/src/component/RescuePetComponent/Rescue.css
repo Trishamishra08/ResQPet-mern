@@ -1,0 +1,33 @@
+/* rescue.css - Custom tweaks for RescuePetForm */
+
+.custom-form .form-control {
+  background-color: #f0f8ff;
+  border-radius: 10px;
+  padding: 12px 18px;
+  font-size: 16px;
+}
+
+.custom-form .form-control:focus {
+  border: 2px solid var(--primary-color);
+  box-shadow: 0 0 5px rgba(91, 193, 172, 0.3);
+}
+
+.custom-form label {
+  font-weight: 600;
+  color: var(--secondary-color);
+  margin-bottom: 8px;
+}
+
+.custom-form .custom-btn {
+  background-color: var(--secondary-color);
+  color: #fff;
+  font-weight: 600;
+  padding: 12px 20px;
+  border-radius: 100px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-form .custom-btn:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}

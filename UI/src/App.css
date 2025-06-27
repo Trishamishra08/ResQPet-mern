@@ -1,0 +1,25 @@
+#containor{
+  height: 552px;
+  width : 100%;
+}
+
+#content
+{
+  height: 55%;
+  width: 100%;
+  display: flex; 
+}
+
+#part1
+{
+  height: 100%;
+  width: 33%;
+  float:left;
+}
+
+#part2
+{
+  height: 100%;
+  width: 70%;
+  float: right;
+}

@@ -1,0 +1,19 @@
+.logo {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border: 2px solid #f0e3c2;
+}
+
+nav.navbar {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+/* Ensures next section (image/hero) starts immediately */
+nav + * {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}

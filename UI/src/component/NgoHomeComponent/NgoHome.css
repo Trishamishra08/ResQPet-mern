@@ -1,0 +1,36 @@
+.ngo-dashboard {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(120, 72, 33, 0.1);
+  color: #4a2e21;
+  margin-top: 2rem;
+}
+
+.ngo-dashboard h2 {
+  font-weight: 700;
+  color: #4a2e21;
+}
+
+.card {
+  background-color: #fffefc;
+  border: 1px solid #e4d5c3;
+  border-left: 6px solid #b3743b;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card h4 {
+  color: #6e3c21;
+}
+
+.card p {
+  color: #4a2e21;
+}
+
+.btn-outline-secondary, .btn-danger {
+  margin-top: 10px;
+}

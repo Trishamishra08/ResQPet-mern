@@ -1,0 +1,15 @@
+.site-header {
+    background-color: #222831;
+    padding: 10px 0;
+    color: white;
+}
+
+.site-header a,
+.site-header p,
+.site-header i {
+    color: white;
+}
+
+.site-header a:hover {
+    color: #00adb5; /* Optional: add hover effect with a contrasting color */
+}
